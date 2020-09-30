@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/1a38dbc99b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>World Music</title>
+</head>
+<body>
+
+
+
+    <nav>
+        <img src="/images/logo.png" alt="World_Music_Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="artists.html">Artists</a></li>
+            <li><a href="#">Albums</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+     </nav>
+
+
+
+     <section class="midSection">
+         <article class="background">
+         <h1>WORLD MUSIC <br>
+            <span class="secondLine">DE STØRSTE KUNSTNERE</span>
+        </h1>
+        <a href="/artists.html">ARTISTER</a>
+        </article>
+     </section>
+     <section class="underBackground">
+        <div class="ubtext">
+            <h2>Eminem Top Artist</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Explicabo, expedita! Nulla, amet. <br> Impedit modi repellendus consectetur <br> perspiciatis non enim cumque provident <br> doloribus omnis alias voluptatem est <br> tempora, vitae unde neque!</p>
+            <a href="#">TOP ARTISTS</a>
+        </div>
+        <div class="ubPicture">
+            <img src="/images/eminem1.jpg" alt="Picture_Of_Eminem">
+        </div>
+    </section>
+
+
+
+     <section class="slideshow">
+         <h3>FESTIVAL SLIDESHOW</h3>
+        <div class="slide">
+            <img src="/images/tage.jpg" alt="Stage">    
+            <div class="name">STAGE</div>
+        </div>
+        <div class="slide">
+            <img src="/images/singer.jpg" alt="Artist">    
+            <div class="name">ARTIST</div>
+        </div>
+        <div class="slide">
+            <img src="/images/publikum.jpg" alt="Audience">    
+            <div class="name">AUDIENCE</div>
+        </div>
+
+        <div class="prev" onclick="switchSlide(-1)">&#10094;</div>
+        <div class="next" onclick="switchSlide(1)">&#10095;</div>
+
+        <div class="dots">
+            <span class="dot" onclick="slide(1)"></span>
+            <span class="dot" onclick="slide(2)"></span>
+            <span class="dot" onclick="slide(3)"></span>
+        </div>
+     </section>
+
+
+     <footer>
+         <div class="footerContact">
+            <p>Contact</p>
+            <i style="color: white;" class="fas fa-phone"></i><a href="#"> Phone: +45 24955943</a> <br>
+            <i style="color: white;" class="fas fa-envelope"></i><a href="mailto: test@gmail.com"> worldmusic@business.com</a>
+            
+         </div>
+     </footer>
+
+
+
+     <script src="/slideshow.js"></script>
+</body>
+</html>
