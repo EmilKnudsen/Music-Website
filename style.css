@@ -247,7 +247,7 @@ hr{
   }
   .artistName{
       font-size: 24px;
-      padding: 0 0 20px;
+      margin-bottom: 50px;
       font-weight: bold;
   }
   .country, .album{
@@ -277,4 +277,7 @@ hr{
       font-weight: bold;
       padding: 1px 0;
       font-size: 12px;
+      width: 90%;
+      text-align: center;
+      margin: 0 auto;
   }
